@@ -12,7 +12,7 @@ public interface UserDao {
 
     void saveUser(String name, String lastName, byte age) throws SQLException;
 
-    void removeUserById(long id) throws SQLException;//delete
+    void removeUserById(long id) throws SQLException;
 
     List<User> getAllUsers() throws SQLException;
 
